@@ -1,34 +1,65 @@
-# 生物医学工程（BME）论文精读笔记
+# 论文精读笔记
 
-> 个人整理的 BME 论文精读笔记库。目标读者是**基础较弱的学习者**（大一新生，具备基础微积分与线性代数），采用**刨根问底**的方式讲解：不满足于"是什么"，一路追问到"为什么"。
+> 个人整理的论文精读笔记库，**按学科分模块**存放。目标读者是**基础较弱的学习者**（大一新生，具备基础微积分与线性代数），采用**刨根问底**的方式讲解：不满足于"是什么"，一路追问到"为什么"。
 
 - **对象与深度**：为大一新生写。每个公式只说明"表达什么关系"，**不推导**；所有符号、单位、数量级都解释到位。
 - **结构**：一句话看懂 → 背景动机 → 核心概念 → 逐节精读 → 数学建模 → 风险 / 局限 / 未来方向 → 对比 → Q&A → 自测清单 → 词汇表。
 
+## 模块
+
+| 模块 | 目录 | 已收录 | 关注 |
+| --- | --- | --- | --- |
+| **生物医学工程（BME）** | [bme/](bme/) | **6 篇** | 生物传感、医疗机器人、生物材料、腔内导航 |
+| **人工智能（AI）** | [ai/](ai/) | 0 篇（空位） | 模型架构、训练方法、多模态、Agent |
+| **神经科学** | [neuroscience/](neuroscience/) | 0 篇（空位） | 神经编码、记录与刺激、脑机接口 |
+| **生物** | [biology/](biology/) | 0 篇（空位） | 分子细胞、遗传、发育、免疫 |
+
+> 各模块的论文清单，见该模块目录下的 `README.md`。根目录只做**模块索引**，避免同一份清单在两处各维护一遍。
+
 ## 目录结构
 
 ```
-bme-paper-notes/
-├── README.md                 ← 你正在看这个
-└── papers/                   ← 每篇论文一个子目录
-    └── <论文slug>/
-        ├── <论文slug>.md     ← 精读笔记
-        └── images/           ← 插图
-            └── paper-figures/  ← （可选）论文原图等非原创图片，附 NOTICE 说明出处
+paper-notes/
+├── README.md                 ← 你正在看这个（总索引）
+├── bme/                      ← 生物医学工程
+│   ├── README.md             ← 模块索引 + 已收录清单
+│   └── papers/
+│       └── <论文slug>/
+│           ├── <论文slug>.md ← 精读笔记
+│           └── images/
+│               ├── *.png                ← 自绘示意图
+│               └── paper-figures/       ← 论文原图等非原创图片
+│                   └── NOTICE.md        ← 出处与版权
+├── ai/                       ← 人工智能（空位）
+│   ├── README.md
+│   └── papers/
+├── neuroscience/             ← 神经科学（空位）
+│   ├── README.md
+│   └── papers/
+└── biology/                  ← 生物（空位）
+    ├── README.md
+    └── papers/
 ```
 
-> 说明：**自绘示意图**直接放在 `images/`；**论文原图等非原创图片**统一放在 `images/paper-figures/`，并在该目录的 `NOTICE.md` 中列明出处与版权归属，以区分原创与非原创内容。
+> 目录名用英文，是为了让 URL 与命令行里不出现百分号编码；**中文名写在 README 的标题和模块表里。**
 
-## 已收录
+## 写作与归档约定
 
-| 论文 | 方向 | 笔记 |
-| --- | --- | --- |
-| Photoacoustic Triaxial Force Sensing via Integrated Polymer Waveguides for Ultra-Compact Robotic Surgical Instruments（IEEE/ASME TMech 2025, DOI 10.1109/TMECH.2025.3628300） | 光声三轴力传感 / 微创手术器械 | [查看](papers/photoacoustic-triaxial-force-sensing/photoacoustic-triaxial-force-sensing.md) |
-| Iontronic tip-sensing guidewires（Nature Biomedical Engineering 2025, DOI 10.1038/s41551-025-01548-9） | 离子电子压力传感 / FFR 导丝 | [查看](papers/iontronic-tip-sensing-guidewires/iontronic-tip-sensing-guidewires.md) |
-| Magnetic catheter robot with dynamic force feedback for stiffness identification and abnormality detection（Fundamental Research 2026, DOI 10.1016/j.fmre.2026.03.014） | 磁导航 / 力反馈 / 刚度识别 | [查看](papers/magnetic-catheter-robot-force-feedback/magnetic-catheter-robot-force-feedback.md) |
-| Deep learning–enabled versatile shape perception for soft robots via single-ended multimode fiber（Science Advances 2026, DOI 10.1126/sciadv.aef6263） | 多模光纤散斑 / 形状感知 / 软体机器人 | [查看](papers/single-ended-multimode-fiber-shape-perception/single-ended-multimode-fiber-shape-perception.md) |
-| Nature-Inspired Magnetic Cilia for Detection and Early Intervention of Vascular Stenosis（Advanced Materials 2026, DOI 10.1002/adma.202520941） | 磁控人工纤毛 / 血流动力学 / 无线磁传感 / ROS 响应递送 | [查看](papers/magnetic-cilia-vascular-stenosis/magnetic-cilia-vascular-stenosis.md) |
-| Light-Actuated Fiber-Climbing Inchworm Robot Toward Endoluminal Navigation（Advanced Functional Materials 2026, DOI 10.1002/adfm.75627） | 液晶弹性体 / 侧发光光纤 / 尺蠖机器人 / 腔内导航 | [查看](papers/light-actuated-fiber-climbing-inchworm-robot/light-actuated-fiber-climbing-inchworm-robot.md) |
+**图片**
+
+- **自绘示意图**直接放在 `images/`；**论文原图等非原创图片**统一放在 `images/paper-figures/`。
+- `paper-figures/` 目录必须带一份 `NOTICE.md`，列明：对应原图编号、来源论文、DOI、版权归属与许可。
+- 论文原图命名为 `fig<N>-<内容-短横线>.png`。
+
+**笔记**
+
+- 笔记文件与所在目录同名，UTF-8，带 YAML frontmatter（`title` / `tags` / `type: paper-note`）。
+- 正文里的图片用相对路径 `![图](images/paper-figures/fig1-xxx.png)`（**不要**用 Obsidian 的 `![[...]]` 维基链接，GitHub 不解析）。
+- 新增一篇后要同时更新三处：该模块 `README.md` 的「已收录」表、该模块标题里的篇数、上面模块表的篇数。
+
+**归档判断**
+
+- 一篇论文同时沾两个模块时，**按它的主要问题归档**：问"怎么把信号测出来 / 怎么做成器件"→ BME；问"大脑怎么工作"→ 神经科学；问"机制是什么"→ 生物；问"模型怎么训练出来的"→ AI。
 
 ## 声明
 
@@ -37,4 +68,4 @@ bme-paper-notes/
 - 论文版权归原作者及其出版机构所有，本仓库仅作学习交流。
 - 各篇笔记 `images/paper-figures/` 目录下的**论文原图**版权归原作者及出版机构所有，仅作学习评述之用，详见各目录内的 `NOTICE.md`；如需他用请自行取得授权。
 
-> 说明：本仓库由 **Claude Code**协助整理。
+> 说明：本仓库由 **Claude Code** 协助整理。
