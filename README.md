@@ -28,6 +28,7 @@ bme-paper-notes/
 | Magnetic catheter robot with dynamic force feedback for stiffness identification and abnormality detection（Fundamental Research 2026, DOI 10.1016/j.fmre.2026.03.014） | 磁导航 / 力反馈 / 刚度识别 | [查看](papers/magnetic-catheter-robot-force-feedback/magnetic-catheter-robot-force-feedback.md) |
 | Deep learning–enabled versatile shape perception for soft robots via single-ended multimode fiber（Science Advances 2026, DOI 10.1126/sciadv.aef6263） | 多模光纤散斑 / 形状感知 / 软体机器人 | [查看](papers/single-ended-multimode-fiber-shape-perception/single-ended-multimode-fiber-shape-perception.md) |
 | Nature-Inspired Magnetic Cilia for Detection and Early Intervention of Vascular Stenosis（Advanced Materials 2026, DOI 10.1002/adma.202520941） | 磁控人工纤毛 / 血流动力学 / 无线磁传感 / ROS 响应递送 | [查看](papers/magnetic-cilia-vascular-stenosis/magnetic-cilia-vascular-stenosis.md) |
+| Light-Actuated Fiber-Climbing Inchworm Robot Toward Endoluminal Navigation（Advanced Functional Materials 2026, DOI 10.1002/adfm.75627） | 液晶弹性体 / 侧发光光纤 / 尺蠖机器人 / 腔内导航 | [查看](papers/light-actuated-fiber-climbing-inchworm-robot/light-actuated-fiber-climbing-inchworm-robot.md) |
 
 ## 声明
 
