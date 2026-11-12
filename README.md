@@ -11,7 +11,7 @@
 | --- | --- | --- |
 | **生物医学工程（BME）** | [bme/](bme/) | **7 篇** |
 | **人工智能（AI）** | [ai/](ai/) | 0 篇 |
-| **神经科学** | [neuroscience/](neuroscience/) | 0 篇 |
+| **神经科学** | [neuroscience/](neuroscience/) | **1 篇** |
 | **生物** | [biology/](biology/) | 0 篇 |
 
 各模块的论文清单，见该模块目录下的 `README.md`。
