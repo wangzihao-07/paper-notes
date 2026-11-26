@@ -4,7 +4,7 @@
 
 关注把工程方法用在医学上的研究：**怎么测、怎么动、怎么进到体内去**——生物传感、医疗机器人、生物材料，以及光与磁在体内的能量与信号传输。
 
-## 已收录（9 篇）
+## 已收录（10 篇）
 
 | 论文 | 方向 | 笔记 |
 | --- | --- | --- |
@@ -17,3 +17,4 @@
 | Intelligent Soft Opto-Magnetic Robot for Minimally Invasive Interventional Therapy（Advanced Science 2026, DOI 10.1002/advs.202520344） | 光磁双驱软体机器人 / 上转换发光测温 / LSPR 压力传感 / 光热消融 / 微创介入 | [查看](papers/intelligent-soft-opto-magnetic-robot/intelligent-soft-opto-magnetic-robot.md) |
 | Superelastic Tellurium Thermoelectric Coatings for Advanced Trimodal Microsensing（Nature Communications 2026, DOI 10.1038/s41467-026-68317-3） | 碲热电薄膜 / 塞贝克效应 / 触觉内窥镜 / 视觉触觉融合 / 图像修复 | [查看](papers/superelastic-tellurium-thermoelectric-coatings/superelastic-tellurium-thermoelectric-coatings.md) |
 | Hemodynamics-driven magnetoelastic vascular grafts for stenosis diagnosis（Nature Biotechnology 2026, 44:406–417, DOI 10.1038/s41587-025-02619-7） | 磁弹血管移植物 / 巨磁弹效应 / 无线无源狭窄监测 / 生物相容性 | [查看](papers/magnetoelastic-vascular-graft-stenosis/magnetoelastic-vascular-graft-stenosis.md) |
+| Mechanical load inhibits cancer growth in mouse and human hearts（Science 2026, 392:eads9412, DOI 10.1126/science.ads9412） | 机械转导 / 心脏肿瘤 / 工程心脏组织 / 空间转录组 | [查看](papers/mechanical-load-inhibits-cardiac-cancer/mechanical-load-inhibits-cardiac-cancer.md) |
